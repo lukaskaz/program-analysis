@@ -1,0 +1,42 @@
+name: Check compilation and report
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    environment: test
+
+    steps:
+    - name: Checking out
+      uses: actions/checkout@v4
+    - name: Testing
+      run: echo "Testing"
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - name: Checking out
+      uses: actions/checkout@v4
+    - name: Building
+      run: script/build.sh prog
+      
+  report:
+    name: Report
+    runs-on: ubuntu-latest
+    environment: production
+
+    steps:
+    - name: Checking out
+      uses: actions/checkout@v4
+    - name: Generating report
+      run: script/build.sh prog doreport showoutput
+
