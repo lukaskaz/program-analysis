@@ -8,3 +8,8 @@ script/clean.sh
 
 Reports are stored in ./out directory
 
+Scripts meaning:
+build.sh - compilation of given source with basic elf sections report (<bin>.s)
+report.sh - generating extended elf info report + time profiling (<bin>.report)
+clean.sh - removing all output files (binaries + reports)
+
