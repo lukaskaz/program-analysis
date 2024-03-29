@@ -13,4 +13,4 @@ Scripts meaning:<br>
 \> report.sh - generating extended elf info report + time profiling (<bin>.report)<br>
 \> clean.sh - removing all output files (binaries + reports)<br>
 \--<br>
-BBBCCC
+
