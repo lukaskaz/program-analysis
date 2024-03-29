@@ -47,6 +47,6 @@ int main()
     testfunc1();
     testfunc2();
 
-    return 0;
+    return 0
 }
 
