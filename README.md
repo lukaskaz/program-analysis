@@ -14,5 +14,3 @@ Scripts meaning:<br>
 \> clean.sh - removing all output files (binaries + reports)<br>
 \--<br>
 
-AA
-
