@@ -1,4 +1,4 @@
-name: Check compilation and report
+name: Build check
 
 on:
   push:
