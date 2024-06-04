@@ -12,5 +12,4 @@ Scripts meaning:<br>
 \> build.sh - compilation of given source with basic elf sections report (<bin>.s)<br>
 \> report.sh - generating extended elf info report + time profiling (<bin>.report)<br>
 \> clean.sh - removing all output files (binaries + reports)<br>
-\--<br>
-
+\--
